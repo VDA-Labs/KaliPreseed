@@ -1,32 +1,32 @@
 #installs from apt
  apt update
  apt upgrade
- apt install python-impacket 
- apt install backdoor-factory 
- apt install powershell 
+ apt install -y python-impacket 
+ apt install -y backdoor-factory 
+ apt install -y powershell 
  apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
- apt install autoconf automake libtool 
- apt install nishang 
- apt install dnsmap 
- apt install dnstracer 
- apt install netsniff-ng 
- apt install bettercap 
- apt install ettercap-text-only 
- apt install exploitdb exploitdb-bin-sploits exploitdb-papers 
+ apt install -y autoconf automake libtool 
+ apt install -y nishang 
+ apt install -y dnsmap 
+ apt install -y dnstracer 
+ apt install -y netsniff-ng 
+ apt install -y bettercap 
+ apt install -y ettercap-text-only 
+ apt install -y exploitdb exploitdb-bin-sploits exploitdb-papers 
 #install .net core
  wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
  dpkg -i packages-microsoft-prod.deb
- apt install apt-transport-https
+ apt install -y apt-transport-https
  apt update
- apt install dotnet-sdk-3.1
- apt install aspnetcore-runtime-3.1
- apt install dotnet-runtime-3.1
- apt install dotnet-sdk-2.1
- apt install aspnetcore-runtime-2.1
- apt install dotnet-runtime-2.1
- apt install dotnet-sdk-2.2
- apt install aspnetcore-runtime-2.2
- apt install dotnet-runtime-2.2
+ apt install -y dotnet-sdk-3.1
+ apt install -y aspnetcore-runtime-3.1
+ apt install -y dotnet-runtime-3.1
+ apt install -y dotnet-sdk-2.1
+ apt install -y aspnetcore-runtime-2.1
+ apt install -y dotnet-runtime-2.1
+ apt install -y dotnet-sdk-2.2
+ apt install -y aspnetcore-runtime-2.2
+ apt install -y dotnet-runtime-2.2
 #end .net core install
 
 #installs from git
