@@ -129,6 +129,9 @@ rm -r /opt/tools/windows/sysinternals/live.sysinternals.com/
  echo 'export PATH="/root/.pyenv/bin:$PATH"' >> ~/.bashrc 
  echo 'eval "$(pyenv init -)"' >> ~/.bashrc  
  echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc 
+export PATH="/root/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+echo 'eval "$(pyenv virtualenv-init -)"
 
 #installs from pyenv
  pyenv install 3.8.0  
