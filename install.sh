@@ -1,6 +1,5 @@
 #installs from apt
- apt update 
- apt upgrade -y
+ apt-get update && apt-get -y upgrade
  apt install -y python-impacket 
  apt install -y backdoor-factory 
  apt install -y powershell 
