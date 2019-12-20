@@ -1,5 +1,5 @@
 #installs from apt
- apt-get update && apt-get -y upgrade
+ apt-get update && sudo apt-get -y upgrade
  apt install -y python-impacket 
  apt install -y backdoor-factory 
  apt install -y powershell 
@@ -153,5 +153,4 @@ eval "$(pyenv virtualenv-init -)"
  pip3 install py2exe 
  pip3 install mitmproxy 
  pip3 install sslyze 
- pip3 install sqlmate 
  pip3 install mitm6
