@@ -54,7 +54,7 @@
  mkdir /opt/tools/linux/wepwnwise 
  mkdir /opt/tools/linux/redsnarf 
  git clone https://github.com/PowerShellMafia/PowerSCCM.git /opt/tools/windows/powershellmafia/powersccm 
- git clone https://github.com/EmpireProject/Empire.git /opt/tools/windows/empire 
+ git clone https://github.com/BC-SECURITY/Empire.git /opt/tools/windows/empire 
  git clone https://github.com/byt3bl33d3r/CrackMapExec.git /opt/tools/windows/crackmapexec 
  git clone https://github.com/cyberark/ACLight.git /opt/tools/windows/aclight 
  git clone https://github.com/johnnyxmas/ScanCannon.git /opt/tools/linux/scancannon 
